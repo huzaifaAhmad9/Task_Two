@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="45dp"
+        android:src="@drawable/backpic"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="430dp"
+    android:background="@drawable/background"
+    android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:id="@+id/sign"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:drawableLeft="@drawable/baseline_supervised_user_circle_24"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/sig"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="225dp"
+        android:text="Forgot Password?"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        android:text="Sign in"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="140dp"
+        android:text="New User?"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="687dp"
+        android:layout_marginLeft="215dp"
+        android:text="Sign up"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
